@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>LSApplicationQueriesSchemes</key>
+	<array>
+		<string>maps</string>
+	</array>
+	<key>UIBackgroundModes</key>
+	<array>
+		<string></string>
+		<string>location</string>
+	</array>
+	<key>NSLocationAlwaysUsageDescription</key>
+	<string>We need your location even in background.</string>
+	<key>NSFaceIDUsageDescription</key>
+	<string>We use Face ID to securely activate your ePass.</string>
+	<key>GIDClientID</key>
+	<string>925835973931-b255gp2t41v44olhpagpd67vm01g3pt4.apps.googleusercontent.com</string>
+	<key>UINavigationControllerBasedStatusBarAppearance</key>
+	<string></string>
+	<key>UINavigationControllerBasedStatusBarAppearance - 2</key>
+	<string></string>
+	<key>NSCalendarsFullAccessUsageDescription</key>
+	<string>Please allow access.</string>
+	<key>NSLocationWhenInUseUsageDescription</key>
+	<string>We need your location to center the map and mark fence points.</string>
+	<key>NSLocationAlwaysAndWhenInUseUsageDescription</key>
+	<string>We need your location to track even when the app is in background.</string>
+	<key>CFBundleURLTypes</key>
+	<array>
+		<dict>
+			<key>CFBundleURLSchemes</key>
+			<array>
+				<string>com.googleusercontent.apps.925835973931-b255gp2t41v44olhpagpd67vm01g3pt4</string>
+			</array>
+		</dict>
+	</array>
+	<key>UIApplicationSceneManifest</key>
+	<dict>
+		<key>UIApplicationSupportsMultipleScenes</key>
+		<false/>
+		<key>UISceneConfigurations</key>
+		<dict>
+			<key>UIWindowSceneSessionRoleApplication</key>
+			<array>
+				<dict>
+					<key>UISceneConfigurationName</key>
+					<string>Default Configuration</string>
+					<key>UISceneDelegateClassName</key>
+					<string>$(PRODUCT_MODULE_NAME).SceneDelegate</string>
+					<key>UISceneStoryboardFile</key>
+					<string>Main</string>
+				</dict>
+			</array>
+		</dict>
+	</dict>
+</dict>
+</plist>
